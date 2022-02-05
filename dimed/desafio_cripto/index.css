@@ -1,0 +1,18 @@
+#button{
+    display: flex;
+    height: 20px;
+    width: 110px;
+    margin-left:3px
+}
+
+p{
+    display: flex;
+}
+
+#rotation{
+    margin-left: 3px;
+}
+
+#phrase {
+    margin-left: 3px;
+}

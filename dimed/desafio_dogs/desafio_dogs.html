@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perseguição</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <div id="steps">
+        <p>Quantas casas Bob irá andar para pega Olie?</p> 
+
+        <p><input type="number" value="bob" id="stepBob" placeholder="Qual a posição?">
+        <button type="button" id="" onclick="openRex()" > Adicionar </button></p>
+
+        <div id="divRex" style="display: none;">
+            <p> Quantas casas Rex irá andar para pega Olie?</p> 
+
+            <p><input type="number" name="Bob" id="stepRex" placeholder="Qual a posição?">
+            <button type="button" id="" onclick="openOli()"> Adicionar </button></p>
+        </div>
+
+        <div id="divOli" style="display: none;">
+            <p> Qual a distância de Olie? </p>
+            
+            <p>  <input type="number" id="stepOli" placeholder="Qual a posição?">
+            <button type="button" id="" onclick="Persecution()"> Adicionar </button></p></div>
+    </div>
+
+    <div id="vencedor" style="text-align: center;">
+
+    </div>
+
+        
+</body>
+<script src="desafio_dogs.js"> 
+</script>
+</html>
